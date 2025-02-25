@@ -1,11 +1,11 @@
 // Primeros pasos: Consola y Sintaxis básica
 
 // Variables:
-
+//representa un contenedor o un espacio en la memoriafisica o virtual de una computadora donde se almacena distintos tipos de datos.
 
 // Primeros pasos: Consola y Sintaxis básica
 
-// Variables:
+// Variables
 
 // Crea una variable que guarde un tipo de dato: number
 let numero;
