@@ -29,7 +29,7 @@ frutas.push("kiwi");
 frutas.shift();
 
 // Encuentra la longitud del arreglo 'frutas' y guárdala en una variable
-let longitudFrutas= frutas.length
+let longitudFrutas = frutas.length
 
 // Manipulación de objetos
 // Accede a la propiedad 'nombre' del objeto 'persona' y guárdala en una variable
@@ -38,10 +38,10 @@ let nombrePersona = persona.nombre;
 // Modifica la propiedad 'edad' de 'persona'
 persona.edad = 50;
 // Elimina la propiedad 'ciudad' del objeto 'persona'
-
+delete persona.ciudad;
 module.exports = {
-    frutas,
-    persona,
-    longitudFrutas,
-    nombrePersona
+    frutas:frutas,
+    persona:persona,
+    longitudFrutas:longitudfrutas,
+    nombrePersona :nombrePersona,
 };
