@@ -25,39 +25,24 @@ while (i<= 50) {
     i++;
 }
 // 3. Bucle 'do-while'
-// - Usa un bucle 'do-while' para imprimir los primeros 5 números de la secuencia de Fibonacci.
-// - Usa un bucle 'do-while' para pedir un número al usuario hasta que ingrese un número mayor a 10.
+// - Usa un bucle 'do-while' para generar números aleatorios hasta obtener uno mayor a 10.
 
-let fibonacci = {};
-let a = 0;
-let b = 1;
-let count = 0
-let numeroIngresado  = 5;
-fibonacci. push(a);
-do { 
-    fibonacci.push(b);
-    let temp =a + b ;
-a = b;
-b = temp;
-count++;
-} while (count < numeroIngresado -1);
- 
 let numero;
-do { 
-  numero = parseInt(prompt("Por favor,ingrese un numeromayor a 10:"),10)
- if (numero<=10) { 
-    console.log("El numero ingresado es menor o igual a 10.Intrntalo de nuevo.");
- }
-}while (numero<=10);
-console.log("¡gracias! El numero ingresado es: " + numero);
-
+do {
+    // Generate a random number between 1 and 20
+    numero = Math.floor(Math.random() * 20) + 1;
+    if (numero <= 10) {
+        console.log(`Generated number ${numero} is less than or equal to 10. Trying again...`);
+    }
+} while (numero <= 10);
+console.log(`Success! Generated number is: ${numero}`);
 // 4. Iterar sobre arreglos
 // - Usa un bucle 'for' para recorrer un arreglo de nombres y mostrar cada uno en la consola.
 
 
 let nombres = ["Ana", "Juan", "Pedro", "María", "Luis"];
 
-for (let i = 0; i <nombres. length; i++) { 
+for (let i = 0; i <nombres.length; i++) { 
     console.log(nombres[i]);
 
 }
@@ -77,8 +62,7 @@ let usuario = {
 module.exports = {
     sumaFor,
     sumaParesWhile,
-    fibonacci,
-    numeroIngresado,
+    numero,      // Added numero to exports
     nombres,
     usuario,
 };
