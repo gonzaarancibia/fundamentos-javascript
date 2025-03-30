@@ -2,6 +2,8 @@
 
 Este documento explica los conceptos fundamentales de funciones y scope en JavaScript cubiertos en la clase.
 
+[📺 Ver el video de la clase](https://drive.google.com/file/d/1HLMsSayxcQ3ohaYtQsl8Is5pEIGhxR0s/view?usp=sharing)
+
 ## 1. Introducción a las Funciones
 
 Las funciones en JavaScript son bloques de código reutilizables que pueden ser declaradas de diferentes maneras:
